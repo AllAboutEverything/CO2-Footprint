@@ -1,0 +1,22 @@
+[
+    {"type": "country", "name": "China", "emissions": 10065493},
+    {"type": "country", "name": "United States", "emissions": 5421672},
+    {"type": "country", "name": "India", "emissions": 2655344},
+    {"type": "country", "name": "Russia", "emissions": 1672675},
+    {"type": "country", "name": "Japan", "emissions": 1215448},
+    {"type": "country", "name": "Germany", "emissions": 759082},
+    {"type": "country", "name": "Iran", "emissions": 720574},
+    {"type": "country", "name": "South Korea", "emissions": 656380},
+    {"type": "country", "name": "Saudi Arabia", "emissions": 621565},
+    {"type": "country", "name": "Canada", "emissions": 546252},
+    {"type": "company", "name": "Saudi Aramco", "emissions": 456700},
+    {"type": "company", "name": "Chevron", "emissions": 381200},
+    {"type": "company", "name": "Gazprom", "emissions": 374500},
+    {"type": "company", "name": "ExxonMobil", "emissions": 330600},
+    {"type": "company", "name": "National Iranian Oil Co", "emissions": 318500},
+    {"type": "company", "name": "BP", "emissions": 297300},
+    {"type": "company", "name": "Royal Dutch Shell", "emissions": 290700},
+    {"type": "company", "name": "Coal India", "emissions": 228500},
+    {"type": "company", "name": "Pemex", "emissions": 189300},
+    {"type": "company", "name": "ConocoPhillips", "emissions": 170900}
+]

@@ -1,0 +1,200 @@
+/* Google Fonts integration */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Reset body styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Light gray background color */
+    color: #333333; /* Dark gray text color */
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 150px; /* Fixed height for the header */
+    background-color: #333333; /* Fallback dark gray header background */
+    background-image: url('assets/Banner.jpg'); /* Path to your banner image */
+    background-size: cover; /* Cover the entire header */
+    background-position: center; /* Center the image */
+}
+
+header h1 {
+    color: #f7f7f7; /* Light header text color */
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    background-color: rgba(51, 51, 51, 0.8); /* Dark overlay with 50% opacity */
+    padding: 5px 10px;
+}
+
+
+.logo {
+    position: absolute;
+    left: 20px;
+    height: 120px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f7f7f7; /* Light gray link text color */
+    text-decoration: none;
+    background-color: #555555; /* Medium gray background */
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #777777; /* Lighter gray background on hover */
+    color: #333333; /* Dark gray text color on hover */
+}
+
+/* Container styles */
+.container-fluid {
+    margin-top: 20px;
+}
+
+/* Local navigation styles */
+.local-nav {
+    background-color: #f7f7f7; /* Light local navigation background */
+    padding: 10px;
+}
+
+@media (min-width: 768px) {
+    body.rtl .local-nav {
+        order: 1; /* Move Local navigation to the right*/
+    }
+}
+
+.local-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.local-nav ul li {
+    margin: 10px 0;
+}
+
+.local-nav ul li a {
+    color: #f7f7f7;
+    text-decoration: none;
+    background-color: #555555; /* Medium gray background */
+    padding: 10px 15px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.local-nav ul li a:hover {
+    background-color: #777777; /* Lighter gray background on hover */
+    color: #333333; /* Dark gray text color on hover */
+}
+
+th {
+    cursor: pointer;
+    position: relative;
+    padding-right: 20px; /* Space for sort arrow */
+}
+
+th .sort-arrow {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+th .sort-arrow::after {
+    content: "▲▼";
+    font-size: 12px;
+    color: #f7f7f7; /* Light sort arrow color */
+}
+
+th.asc .sort-arrow::after {
+    content: "▲";
+}
+
+th.desc .sort-arrow::after {
+    content: "▼";
+}
+
+/* Input styles */
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 2px solid #777777; /* Lighter gray border */
+    border-radius: 4px;
+}
+
+/* Heading styles */
+h1, h2 {
+    color: #333333; /* Dark gray heading text color */
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f7f7f7; /* Light gray table background */
+    table-layout: fixed; /* Fixed table layout for uniform column width */
+}
+
+table, th, td {
+    border: 1px solid #333333; /* Dark gray border */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    width: 50%; /* Ensure each column takes up half the table width */
+}
+
+th {
+    background-color: #555555; /* Medium gray header background color */
+    color: #f7f7f7; /* Light gray header text color */
+}
+
+tr:nth-child(even) {
+    background-color: #eeeeee; /* Slightly darker gray for even rows */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333333; /* Dark gray footer background */
+    color: #f7f7f7; /* Light gray footer text color */
+    margin-top: 20px;
+}
+
+footer a {
+    color: #f7f7f7; /* Light gray footer link color */
+    text-decoration: none;
+    background-color: #555555; /* Medium gray background */
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+footer a:hover {
+    background-color: #777777; /* Lighter gray background on hover */
+    color: #333333; /* Dark gray text color on hover */
+}
+
